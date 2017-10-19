@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	font-family: calibri;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+#wrapper {
+	margin: 0px auto;
+	padding: 10px;
+	width: 84%;
+	background-color: #ffeeff;
+
+}
+
+table {
+	border: 1px solid #ff1177;
+	border-collapse: collapse;
+	font-size: 24px;
+	width: 100%;
+}
+table thead td {
+	background-color: #ff1177;
+	margin: 0px;
+	padding: 10px;
+	color: #eee;
+}
+
+table tbody td {
+	border-bottom: 1px solid #ff1177;
+	border-right: 1px solid #ff1177;
+	padding: 5px;
+}

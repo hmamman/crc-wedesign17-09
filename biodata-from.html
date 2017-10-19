@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bio Data Form</title>
+</head>
+<body>
+<div>
+	<form method="post" action="thanks.html">
+		<label>First Name:</label><br>
+		<input type="text" name="fname" value="Adamu"><br>
+
+		<label>Last Name:</label><br>
+		<input type="text" name="lname"><br>
+
+		<label>Email:</label>
+		<input type="email" name="email"><br>
+
+		<label>Password:</label>
+		<input type="password" name="password"><br>
+		<label>Age:</label>
+		<input type="number" name="age"><br>
+
+		<label>Gender:</label>
+		<label>
+			<input type="radio" name="gender" value="male"> Male
+		</label>
+		<label>
+			<input type="radio" name="gender" value="female"> Female
+		</label><br>
+
+		<h3>Courses</h3>
+		<label>
+			<input type="checkbox" name="bit121" value="bit121"> BIT121 Information Systems
+		</label><br>
+		<label>
+			<input type="checkbox" name="bit122" value="bit122"> BIT122 Introduction to Computer Systems
+		</label><br>
+		<label>
+			<input type="checkbox" name="bit123" value="bit123"> BIT123 Data Processing
+		</label><br>
+
+		<label>state</label>
+		<select name="state">
+			<option value="bauchi">Bauchi</option>
+			<option value="gombe">Gombe</option>
+			<option value="plateau">Plateau</option>
+			<option value="kano">Kano</option>
+		</select><br>
+
+		<input type="submit" value="Send">
+	</form>
+</div>
+</body>
+</html>
